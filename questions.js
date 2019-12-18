@@ -3,7 +3,7 @@ var questions = [{
     choices: ["strings", "booleans", "alerts", "numbers"],
     answer: "alerts"}
     ,{
-    title: "Commonly used data types DO NOT include:",
+    title: "BLAVLABLALDS:FL:",
     choices: ["strings", "booleans", "alerts", "numbers"],
     answer: "alerts"
     },{
