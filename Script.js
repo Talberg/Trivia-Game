@@ -192,8 +192,8 @@ function Q3(){
     $(a4).addClass('button')
     a1.addEventListener('click', function(){ incorrect3()})
     a2.addEventListener('click', function(){ incorrect3()})
-    a3.addEventListener('click', function(){ correct3()})
-    a4.addEventListener('click', function(){ incorrect3()})
+    a3.addEventListener('click', function(){incorrect3() })
+    a4.addEventListener('click', function(){ correct3()})
     
     a1.textContent = questions[2].choices[0]
     a2.textContent = questions[2].choices[1]
@@ -249,9 +249,9 @@ function Q4(){
     $(a2).addClass('button')
     $(a3).addClass('button')
     $(a4).addClass('button')
-    a1.addEventListener('click', function(){ incorrect4()})
+    a1.addEventListener('click', function(){correct4() })
     a2.addEventListener('click', function(){ incorrect4()})
-    a3.addEventListener('click', function(){ correct4()})
+    a3.addEventListener('click', function(){ incorrect4()})
     a4.addEventListener('click', function(){ incorrect4()})
     
     a1.textContent = questions[3].choices[0]
@@ -307,8 +307,8 @@ function Q5(){
     $(a3).addClass('button')
     $(a4).addClass('button')
     a1.addEventListener('click', function(){ incorrect5()})
-    a2.addEventListener('click', function(){ incorrect5()})
-    a3.addEventListener('click', function(){ correct5()})
+    a2.addEventListener('click', function(){correct5() })
+    a3.addEventListener('click', function(){incorrect5() })
     a4.addEventListener('click', function(){ incorrect5()})
     
     a1.textContent = questions[4].choices[0]
